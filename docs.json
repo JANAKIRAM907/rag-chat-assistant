@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Account Creation and Registration",
+    "content": "To create a new account, visit the login page and click on 'Sign Up'. You will need to provide your email address, create a password, and accept the terms of service. The password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one number. After completing the form, a verification email will be sent to your email address. Click the verification link in the email to activate your account. Your account will be ready to use immediately after verification."
+  },
+  {
+    "title": "Password Reset and Security",
+    "content": "To reset your password, go to the login page and click 'Forgot Password'. Enter your registered email address, and we will send you a password reset link. Click the link in the email and create a new password. For security reasons, the reset link expires after 24 hours. If you don't receive the email, check your spam folder or contact support. We recommend changing your password regularly and using a unique password that you don't use on other websites. You can also enable two-factor authentication in your Account Settings for additional security."
+  },
+  {
+    "title": "Profile Management and Settings",
+    "content": "You can manage your profile by clicking on 'Account Settings' in the menu. From there, you can update your profile picture, name, bio, and contact information. You can also manage your privacy settings, including who can see your profile and contact you. Your profile information is protected and will not be shared with third parties without your consent. You can choose to make your profile private, public, or visible to friends only. All changes to your profile are saved automatically."
+  },
+  {
+    "title": "Billing and Subscription Plans",
+    "content": "We offer three subscription plans: Free, Premium, and Enterprise. The Free plan includes basic features with a limit of 10 requests per day. The Premium plan costs $9.99 per month and includes unlimited requests, priority support, and advanced analytics. The Enterprise plan is custom-priced for organizations and includes dedicated support and custom integrations. You can upgrade or downgrade your plan anytime from the Billing section. Billing is done monthly or annually, and you will receive an invoice via email. Cancellation is available anytime with no penalty."
+  },
+  {
+    "title": "Data Privacy and Protection",
+    "content": "Your data privacy is our top priority. We use industry-standard encryption (SSL/TLS) to protect all data transmitted between your device and our servers. All personal information is stored in secure, encrypted databases. We comply with GDPR, CCPA, and other data protection regulations. We never sell or share your personal data with third parties. You have the right to access, modify, or delete your data anytime. You can download a copy of your data in JSON format from Account Settings. For detailed information about how we handle data, please see our full Privacy Policy."
+  },
+  {
+    "title": "Customer Support and Help Resources",
+    "content": "Our customer support team is available 24/7 to help you. You can reach us via email at support@company.com, through the chat widget on our website, or by creating a support ticket in your dashboard. For urgent issues, Premium and Enterprise customers have access to priority support with response times of under 2 hours. We also maintain a comprehensive knowledge base with articles, tutorials, and FAQs. You can search the knowledge base by topic or use our interactive help system. Most common issues can be resolved by checking the FAQ section first."
+  },
+  {
+    "title": "Data Export and Account Deletion",
+    "content": "You can export your data anytime by going to Account Settings and clicking 'Download My Data'. This will create a zip file containing all your information in standard formats. To delete your account, go to Account Settings, scroll to the bottom, and click 'Delete Account'. Please note that account deletion is permanent and cannot be undone. All your data, files, and settings will be permanently deleted from our servers. You will receive a confirmation email before the deletion is processed. For data deletion inquiries, you can also contact our support team directly."
+  },
+  {
+    "title": "Two-Factor Authentication Setup",
+    "content": "Two-factor authentication (2FA) adds an extra layer of security to your account. To enable 2FA, go to Account Settings > Security > Two-Factor Authentication. Choose between SMS or authenticator app (like Google Authenticator or Authy). For SMS, we will send a code to your registered phone number each time you log in. For authenticator apps, scan the QR code in your settings and enter the code shown in the app. You will be asked to verify by entering a code. Save your backup codes in a secure location in case you lose access to your phone. 2FA is strongly recommended for all users."
+  }
+]

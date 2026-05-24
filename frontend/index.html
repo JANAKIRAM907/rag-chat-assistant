@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI Chat Assistant with RAG</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1>💬 AI Assistant</h1>
+                <p class="subtitle">Powered by Claude & RAG</p>
+            </div>
+            
+            <button class="new-chat-btn" id="newChatBtn">
+                <span>➕ New Chat</span>
+            </button>
+            
+            <div class="sessions-list">
+                <h3>Recent Chats</h3>
+                <div id="sessionsList"></div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="info-section">
+                    <p><strong>Model:</strong> Claude 3.5</p>
+                    <p><strong>Powered by:</strong> RAG System</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container">
+            <div class="chat-header">
+                <div class="header-info">
+                    <h2>GenAI Chat Assistant</h2>
+                    <p id="headerStatus">Ready to chat</p>
+                </div>
+                <button class="clear-btn" id="clearBtn" title="Clear conversation">
+                    🗑️ Clear
+                </button>
+            </div>
+
+            <!-- Messages Display -->
+            <div class="messages" id="messagesContainer">
+                <div class="welcome-message">
+                    <h2>👋 Welcome to GenAI Assistant</h2>
+                    <p>Ask me questions about our services, features, security, billing, and more.</p>
+                    <div class="sample-questions">
+                        <p><strong>Sample Questions:</strong></p>
+                        <button class="sample-btn" onclick="sendMessage('How do I reset my password?')">
+                            How do I reset my password?
+                        </button>
+                        <button class="sample-btn" onclick="sendMessage('What are your subscription plans?')">
+                            What are your subscription plans?
+                        </button>
+                        <button class="sample-btn" onclick="sendMessage('How is my data protected?')">
+                            How is my data protected?
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <input 
+                        type="text" 
+                        id="messageInput" 
+                        placeholder="Type your question here..." 
+                        autocomplete="off"
+                    >
+                    <button id="sendBtn" class="send-btn" title="Send message (or press Enter)">
+                        ➤ Send
+                    </button>
+                </div>
+                <div class="input-info">
+                    <p id="tokenInfo"></p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Processing your question...</p>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

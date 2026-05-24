@@ -3,3 +3,4 @@ uvicorn
 python-dotenv
 anthropic
 numpy
+scikit-learn  
